@@ -1,6 +1,6 @@
 from pycoingecko import CoinGeckoAPI
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from logger import logger
+from utils.logger import logger
 
 class CryptoPriceFetcher:
     def __init__(self):

@@ -5,7 +5,7 @@ from typing import List
 from pycoingecko import CoinGeckoAPI
 from datetime import datetime
 from io import BytesIO
-from logger import logger
+from utils.logger import logger
 
 class CryptoTreeMap:
     def __init__(self):

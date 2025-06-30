@@ -1,9 +1,9 @@
 import asyncio
 from pyrogram import Client
-from prices import CryptoPriceFetcher
+from services.prices import CryptoPriceFetcher
 from config import API_ID, API_HASH, BOT_TOKEN, CHANNEL_ID
-from treemap import CryptoTreeMap
-from logger import logger
+from services.treemap import CryptoTreeMap
+from utils.logger import logger
 
 fetcher = CryptoPriceFetcher()
 tm = CryptoTreeMap()
